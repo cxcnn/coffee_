@@ -1,0 +1,28 @@
+{
+  "name": "population-race-short",
+  "version": "1.0.0",
+  "private": true,
+  "description": "How India overtook China: a Remotion data-story template (Shorts + landscape)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Short out/short.mp4",
+    "render:landscape": "remotion render Landscape out/landscape.mp4",
+    "typecheck": "tsc --noEmit",
+    "fetch-data": "node scripts/fetch-population.mjs"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@remotion/cli": "4.0.546",
+    "@remotion/fonts": "4.0.546",
+    "@remotion/paths": "4.0.546",
+    "country-flag-icons": "1.6.20",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
